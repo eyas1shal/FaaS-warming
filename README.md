@@ -1370,7 +1370,7 @@ Measures the correlation between invocations in consecutive minutes. High autoco
 
 #### 3.2.6 Idle Percentage
 
-$$\text{IdlePercent} = \frac{\#\{t : I[t] = 0\}}{1440} \times 100$$
+$$\text{IdlePercent} = \frac{\text{*}\{t : I[t] = 0\}}{1440} \times 100$$
 
 Represents the fraction of minutes with zero invocations. High idle percentages (>95%) indicate sparse, intermittent functions that frequently experience cold starts.
 
